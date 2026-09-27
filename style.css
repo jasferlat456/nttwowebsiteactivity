@@ -9,7 +9,7 @@ body {
 }
 
 .Login-regis {
-    background-image: url("Images/login.webp");
+    background-image: url("Images/login.jpg");
 }
 
 .register-login-container {
@@ -74,6 +74,17 @@ body {
     box-sizing: border-box;
 }
 
+#myForm {
+    color: red;
+    margin-top: 10px;
+}
+
+#loginForm {
+    color: red;
+    margin-top: 10px;
+}
+
+
 .login-text {
     margin-top: 25px;
     color: white;
@@ -84,6 +95,12 @@ body {
     color: white;
     font-weight: bold;
     text-decoration: none;
+}
+
+#loginError {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .signout-btn {
@@ -117,6 +134,10 @@ body {
     font-optical-sizing: auto;
     font-weight: 567;
     font-style: normal;
+}
+
+label.error {
+    font-family: "Lora", serif;
 }
 
 .banner {
@@ -182,11 +203,6 @@ body {
     text-decoration: none;
 
     border-radius: 35px;
-    transition: 0.3s;
-}
-
-.book-btn:hover {
-    background-color: #78b5ca;
 }
 
 .learn-btn {
@@ -205,13 +221,6 @@ body {
 
     border: 2px solid white;
     border-radius: 35px;
-
-    transition: 0.3s;
-}
-
-.learn-btn:hover {
-    background-color: white;
-    color: #555;
 }
 
 .packages-intro {
