@@ -481,3 +481,22 @@ label.error {
         max-width: 100%;
     }
 }
+
+.php-errors {
+    color: red;
+    margin-top: 10px;
+    font-family: "Lora", serif;
+}
+
+.php-errors ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.php-success {
+    color: lightgreen;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
